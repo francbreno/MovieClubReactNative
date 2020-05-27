@@ -1,0 +1,10 @@
+# iOS
+# app_identifier("com.movieclubreactnative")
+# apple_id("francisco.breno@dataprev.gov.br")
+
+# itc_team_id("")
+# team_id("")
+
+# Android
+json_key_file("./keys/movie-club-ap-api-key.json")
+package_name("com.movieclubreactnative")
