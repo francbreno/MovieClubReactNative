@@ -14,7 +14,7 @@ end
 
 platform :android do
   desc "Build para Play Tests"
-  lane :tests do
+  lane :beta do
     UI.header "Iniciando build de testes para Play Store"
     
     gradle(task: "clean assemble")
