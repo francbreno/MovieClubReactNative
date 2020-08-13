@@ -2,6 +2,15 @@ default_platform(:android)
 
 platform :android do
   desc "Build para Play Tests"
+
+  lane :build do
+    UI.header "Building & signing apk..."
+    
+    gradle(task: "clean assemble")
+
+    UI.success "apk ready!"
+  end
+
   lane :beta do
     UI.header "Iniciando build de testes para Play Store"
     
